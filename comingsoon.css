@@ -1,0 +1,152 @@
+.navbar {
+    margin-bottom: 0;
+    background-color: rgb(50, 2, 59);
+    z-index: 1;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+    position: fixed;
+    display: block;
+    width: 100vw;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: rgb(161, 161, 161) !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #ffffff !important;
+    background-color: rgb(50, 0, 99) !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(50, 2, 59);
+}
+
+
+/* Dropdown Button */
+
+.dropbtn {
+    background-color: rgb(50, 2, 59);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(50, 2, 59, 0.493);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #000000;
+}
+
+.slideanim {
+    visibility: hidden;
+}
+
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segue UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    height: 100%;
+    background-image: url('coming.jpg');
+}
+
+.bgimg {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 50px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    font-size: 25px;
+    color: rgb(255, 255, 255)
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 400px;
+    color: rgb(200, 0, 0)
+}
+
+.countdown {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgb(139, 0, 50)
+}
+
+hr {
+    margin: auto;
+    width: 60%;
+}
